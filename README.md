@@ -1,3 +1,7 @@
+LoginSystem ASP.NET MVC
+
+LoginSystem egy teljesen működő ASP.NET MVC alapú autentikációs és felhasználókezelő rendszer, JWT token alapú autentikációval, refresh tokenekkel, regisztrációval, jelszóváltoztatással és visszaállítással.
+
 🚀 Főbb funkciók
 
 Felhasználói regisztráció (/api/auth/register)
