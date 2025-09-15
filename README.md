@@ -1,6 +1,6 @@
 LoginSystem ASP.NET MVC
 
-LoginSystem egy teljesen működő ASP.NET MVC alapú autentikációs és felhasználókezelő rendszer, JWT token alapú autentikációval, refresh tokenekkel, regisztrációval, jelszóváltoztatással és visszaállítással.
+Ez egy teljesen működő ASP.NET MVC alapú autentikációs és felhasználókezelő rendszer, JWT token alapú autentikációval, refresh tokenekkel, regisztrációval, jelszóváltoztatással és visszaállítással.
 
 Főbb funkciók:
 
@@ -76,7 +76,7 @@ git clone https://github.com/<felhasznalonev>/LoginSystem.git
 cd LoginSystem
 
 
-Nyisd meg Visual Studio-ban vagy VS Code-ban.
+Nyisd meg Visual Studio-ban.
 
 Ellenőrizd az appsettings.json adatbázis beállításait:
 
