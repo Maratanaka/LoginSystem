@@ -2,7 +2,7 @@ LoginSystem ASP.NET MVC
 
 LoginSystem egy teljesen működő ASP.NET MVC alapú autentikációs és felhasználókezelő rendszer, JWT token alapú autentikációval, refresh tokenekkel, regisztrációval, jelszóváltoztatással és visszaállítással.
 
-🚀 Főbb funkciók
+Főbb funkciók:
 
 Felhasználói regisztráció (/api/auth/register)
 
@@ -27,26 +27,46 @@ Swagger/OpenAPI dokumentáció a fejlesztéshez és teszteléshez
 📂 Fájlstruktúra
 LoginSystem/
 │
+
 ├─ Controllers/
+
 │   └─ AuthController.cs         # API végpontok kezelése (login, register, refresh, logout)
+
 │
+
 ├─ Data/
+
 │   └─ ApplicationDbContext.cs   # EF Core DbContext és tábla konfigurációk
+
 │
+
 ├─ Model/
+
 │   └─ User.cs                   # Felhasználói entitás
+
 │
+
 ├─ DTOs/
+
 │   ├─ LoginRequest.cs
+
 │   ├─ RegisterRequest.cs
+
 │   ├─ ChangePasswordRequest.cs
+
 │   ├─ ForgotPasswordRequest.cs
+
 │   ├─ ResetPasswordRequest.cs
+
 │   └─ RefreshTokenRequest.cs
+
 │
+
 ├─ appsettings.json              # Adatbázis és JWT konfiguráció
+
 ├─ Program.cs                    # Alkalmazás indulása, middleware és szolgáltatások regisztrálása
-└─ README.md                     # Projekt leírás
+
+
 
 ⚙️ Telepítés
 
@@ -106,7 +126,7 @@ RefreshToken: hosszabb élettartamú (pl. 15 nap) token, új access token gener�
 
 🛠️ Használt technológiák
 
-ASP.NET Core 7.0
+ASP.NET Core 8.0
 
 Entity Framework Core
 
